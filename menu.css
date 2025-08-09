@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+        margin: 0;
+        color: white;
+        font-family: "Rubik", sans-serif;
+        
+}
+html {
+        scroll-behavior: smooth;
+}
+body{
+        background-image: url(Assets/bg.jpg);
+        text-align: center;
+}
+header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        top:0;
+}
+@keyframes rotate {
+        0%       {transform: rotate(0deg);}
+        100%     {transform: rotate(360deg);}
+        
+      }
+header img{ /* Logo */ 
+        width: 50px;
+        max-width: 50px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: normal;
+}
+hr{
+        width: 75%;
+        margin: 0 12.5%;
+        margin-top: 10vh;
+}
+.menu-info{
+        margin: 2vh 0 1vh 0;
+}
+.sub-info{
+        margin-bottom: 1vh;
+}
+.category-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+        margin: 0 12.5%;
+        justify-content: space-around;
+}
+.category-item{
+        background: #00000044;
+        width: 20vw;
+        /* height: 30vw; */
+        margin: 2vw 2vw;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 50px 0px rgba(255, 255, 255, 0.219);
+        text-decoration: none;
+}
+.category-item img{
+        width: 70%;
+}
+.category-item h5{
+        margin: 1vw 0;
+        font-size: .7rem;
+}
+.items-container{
+        /* height: 100vh; */
+        padding-top: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.items-card{
+        background: #0000005b;
+        padding: 2rem;
+        width: 70%;
+        border-radius: 15px;
+        box-shadow: 0 0 50px 0px rgba(255, 255, 255, 0.219);
+}
+.items-card div{
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem 0;
+        width: 100%;
+        /* background: red; */
+}
+.items-card div:first-child{
+        margin-top: 0;
+}
+.items-card div:last-child{
+        margin-bottom: 0;
+}
+.line{
+        position: absolute;
+        left : 30%;
+}
+button{
+        background: none;
+        border: 1px solid white;
+        padding: .5rem 1.5rem;
+        border-radius: 5px;
+}
+#cat1{
+        padding-top: 4rem;
+}
+@keyframes shine {
+        0%       {box-shadow: 0 0 50px 0px rgba(255, 255, 255, 0.219);}
+        100%     {box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.219);}
+        
+      }
+.callToActions{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+}
+.channel{
+        background: #0000005b;
+        padding: 1rem;
+        border-radius: 5px;
+        animation-name: shine;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+        /* z-index: -1; */
+        /* margin: 0 4vw; */
+        width: 30vw;
+}
+
+.channel a {
+        text-decoration: none;
+        display: flex;
+        /* background: #F00; */
+        align-items: center;
+        justify-content: center;
+}
+#teaimg{
+        margin-top: 5px;
+}
+#teaText{
+        margin-top: 5px;
+}
+#chocimg{
+        margin-top: 6px;
+}
+#chocText{
+        margin-top: 6px;
+}
+#crosimg{
+        margin-top: 5px;
+}
+#crosText{
+        margin-top: 5px;
+}
+#guitar{
+        width: 40px;
+}
