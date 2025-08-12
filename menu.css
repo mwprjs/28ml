@@ -60,11 +60,11 @@ hr{
         opacity: 100%;
         display: block;
         margin: auto;
-        padding-right:10px
+        padding-right:5px
         /* left: 50px; */
 }
 .hand-glow-c{
-        width:15px;
+        width:10px;
         height: 15px;
         background: white;
         display: block;
