@@ -40,6 +40,43 @@ hr{
         margin: 0 12.5%;
         margin-top: 10vh;
 }
+.hand-con,
+.hand-glow{
+        /* background: #000; */
+        /* position: fixed; */
+        width: 100%;
+        bottom: 50px;
+        text-align: center;
+}
+.hand-glow{
+        margin-top: 45px;
+}
+.hand-con{
+        margin-top: -45px;
+}
+.handGest{
+        width: 50px;
+        opacity: 100%;
+        display: block;
+        margin: auto;
+        padding-right:10px
+        /* left: 50px; */
+}
+.hand-glow-c{
+        width:15px;
+        height: 15px;
+        background: white;
+        display: block;
+        margin: auto;
+        border-radius: 100%;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        animation-name: shine-h;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+}
 .menu-info{
         margin: 2vh 0 1vh 0;
 }
@@ -76,6 +113,7 @@ hr{
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: -50px;
 }
 .items-card{
         background: #0000005b;
@@ -113,6 +151,11 @@ button{
 @keyframes shine {
         0%       {box-shadow: 0 0 50px 0px rgba(255, 255, 255, 0.219);}
         100%     {box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.219);}
+        
+      }
+@keyframes shine-h {
+        0%       {box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.314);}
+        100%     {box-shadow: 0 0 10px 5px rgb(255, 255, 255,0.8);}
         
       }
 .callToActions{
