@@ -209,7 +209,7 @@ button{
 }
 footer{
         padding: 2em 0 ;
-        display: flex;
+        /* display: flex; */
         justify-content: space-around;
         width: 80%;
         margin: 0 auto;
